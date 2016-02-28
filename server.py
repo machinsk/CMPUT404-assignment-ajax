@@ -22,7 +22,7 @@
 
 
 import flask
-from flask import Flask, request, redirect, url_for, render_template, make_response
+from flask import Flask, request, render_template, make_response
 import time
 import json
 app = Flask(__name__, template_folder='static')
